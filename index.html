@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Generals++ Showcase</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="script.js"></script>
   </head>
   <body>
     <!--Body-->
@@ -47,7 +48,12 @@
     <p>These are the current settings that are supported in the mod.</p>
     <div class="setting_box">
       <h3>French Revolutionary Wars[1792-1802]</h3>
-      <img class = "img_setting_box" src="images/1920px-Valmy_Battle_painting.jpg" alt="">
+      <button type="button" class="img_setting_box_button" onclick="change_setting_box()">
+        <img 
+        class="img_setting_box"
+        id="img_setting_box_french_revolutionary_wars_1792_1802"
+        src="images/1920px-Valmy_Battle_painting.jpg" alt="">
+      </button>
       <p class="setting_box_source">Battle of Valmy 1792, image taken from https://en.wikipedia.org/wiki/Battle_of_Valmy, artist Horace Vernet</p>
       <p class="setting_box_para">Liberty. Egality. Fraternity. The Nation of France, of equals, for equals, is born. The French
         Revolution has begun, and it's first order is to abolish the idea of total monarchism and birth, and bring the Enlightment Ideals

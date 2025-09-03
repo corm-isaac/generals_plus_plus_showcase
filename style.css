@@ -155,3 +155,10 @@ a.a_style_1 {
     margin-top: 50px;
 }
 
+.img_setting_box_button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
